@@ -15,8 +15,8 @@ maindir="$(dirname "$scriptdir")"
 istartdatadir=/data/projects/istart-data #need to fix this upon release (no hard coding paths)
 
 # study-specific inputs
-TASK=sharedreward
-sm=6
+TASK=mid
+sm=5
 sub=$1
 run=$2
 ppi=$3 # 0 for activation, otherwise seed region or network
@@ -121,7 +121,7 @@ if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
 	-e 's@INPUT6@'$INPUT6'@g' \
 	-e 's@INPUT8@'$INPUT8'@g' \
 	-e 's@INPUT9@'$INPUT9'@g' \
-	-e 's@NVOLUMES@'$NVOLUMES'@g' \
+	-e 's@NVOLS@'$NVOLUMES'@g' \
 	<$ITEMPLATE> $OTEMPLATE
 	feat $OTEMPLATE
 
@@ -145,23 +145,15 @@ else # otherwise, do activation and seed-based ppi
 	fi
 
 	# create template and run analyses
-	ITEMPLATE=${maindir}/templates/L1_task-${TASK}_model-2_type-${TYPE}.fsf
-	OTEMPLATE=${MAINOUTPUT}/L1_sub-${sub}_task-${TASK}_model-2_seed-${ppi}_run-${run}.fsf
+	ITEMPLATE=${maindir}/templates/L1_task-${TASK}_model-1_type-${TYPE}.fsf
+	OTEMPLATE=${MAINOUTPUT}/L1_sub-${sub}_task-${TASK}_model-1_seed-${ppi}_run-${run}.fsf
 	if [ "$ppi" == "0" ]; then
 		sed -e 's@OUTPUT@'$OUTPUT'@g' \
 		-e 's@DATA@'$DATA'@g' \
 		-e 's@EVDIR@'$EVDIR'@g' \
-		-e 's@EV_MISSED_TRIAL@'$EV_MISSED_TRIAL'@g' \
-		-e 's@SHAPE_MISSED_TRIAL@'$SHAPE_MISSED_TRIAL'@g' \
-		-e 's@EV_FRIENDN@'$EV_FRIENDN'@g' \
-		-e 's@SHAPE_FRIENDN@'$SHAPE_FRIENDN'@g' \
-		-e 's@EV_COMPN@'$EV_COMPN'@g' \
-		-e 's@SHAPE_COMPN@'$SHAPE_COMPN'@g' \
-		-e 's@EV_STRANGERN@'$EV_STRANGERN'@g' \
-		-e 's@SHAPE_STRANGERN@'$SHAPE_STRANGERN'@g' \
 		-e 's@SMOOTH@'$sm'@g' \
 		-e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
-		-e 's@NVOLUMES@'$NVOLUMES'@g' \
+		-e 's@NVOLS@'$NVOLUMES'@g' \
 		<$ITEMPLATE> $OTEMPLATE
 	else
 		PHYS=${MAINOUTPUT}/ts_task-${TASK}_mask-${ppi}_run-${run}.txt
@@ -181,7 +173,7 @@ else # otherwise, do activation and seed-based ppi
 		-e 's@PHYS@'$PHYS'@g' \
 		-e 's@SMOOTH@'$sm'@g' \
 		-e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
-		-e 's@NVOLUMES@'$NVOLUMES'@g' \
+		-e 's@NVOLS@'$NVOLUMES'@g' \
 		<$ITEMPLATE> $OTEMPLATE
 	fi
 	feat $OTEMPLATE
