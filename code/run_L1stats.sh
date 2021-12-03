@@ -27,6 +27,7 @@ for ppi in 0 NAcc; do # putting 0 first will indicate "activation"
 	  	while [ $(ps -ef | grep -v grep | grep $SCRIPTNAME | wc -l) -ge $NCORES ]; do
 	    		sleep 5s
 	  	done
+                echo $SCRIPTNAME $sub $run $ppi
 	  	bash $SCRIPTNAME $sub $run $ppi &
 			sleep 2s
 	  done
