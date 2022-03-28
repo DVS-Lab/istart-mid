@@ -30,13 +30,13 @@ set fmri(featwatcher_yn) 1
 set fmri(sscleanup_yn) 0
 
 # Output directory
-set fmri(outputdir) ""
+set fmri(outputdir) "OUTPUT"
 
 # TR(s)
 set fmri(tr) 1.750000 
 
 # Total volumes
-set fmri(npts) 265
+set fmri(npts) NVOLUMES
 
 # Delete volumes
 set fmri(ndelete) 0
@@ -273,13 +273,13 @@ set fmri(totalVoxels) 86211125
 set fmri(ncopeinputs) 0
 
 # 4D AVW data or FEAT directory (1)
-set feat_files(1) "/data/projects/istart-data/derivatives/fmriprep/sub-1001/func/sub-1001_task-mid_run-1_space-MNI152NLin2009cAsym_desc-preproc_bold"
+set feat_files(1) "DATA"
 
 # Add confound EVs text file
 set fmri(confoundevs) 1
 
 # Confound EVs text file for analysis 1
-set confoundev_files(1) "/data/projects/istart-data/derivatives/fsl/confounds/sub-1001/sub-1001_task-mid_run-1_desc-fslConfounds.tsv"
+set confoundev_files(1) "CONFOUNDS"
 
 # EV 1 title
 set fmri(evtitle1) "Single"
@@ -314,7 +314,7 @@ set fmri(tempfilt_yn1) 0
 set fmri(deriv_yn1) 0
 
 # Custom EV file (EV 1)
-set fmri(custom1) "/data/projects/istart-mid/derivatives/fsl/EVfiles/sub-1001/SingleTrialEVs/run1/trialmodel-1_estimage-single.tsv"
+set fmri(custom1) "SINGLETRIAL"
 
 # Orthogonalise EV 1 wrt EV 0
 set fmri(ortho1.0) 0
@@ -358,7 +358,7 @@ set fmri(tempfilt_yn2) 0
 set fmri(deriv_yn2) 0
 
 # Custom EV file (EV 2)
-set fmri(custom2) "/data/projects/istart-mid/derivatives/fsl/EVfiles/sub-1001/SingleTrialEVs/run1/trialmodel-1_estimage-other.tsv"
+set fmri(custom2) "OTHERTRIAL"
 
 # Gamma sigma (EV 2)
 set fmri(gammasigma2) 3
