@@ -134,7 +134,7 @@ else # otherwise, do activation and seed-based ppi
 	if [ "$ppi" == "0" ]; then
 		TYPE=act
 		#OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_run-${run}_sm-${sm}
-                OUTPUT-${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_run-${run}
+                OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_run-${run}
 	else
 		TYPE=ppi
 		OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_seed-${ppi}_run-${run}_sm-${sm}
