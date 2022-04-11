@@ -16,11 +16,11 @@ istartdatadir=/data/projects/istart-data #need to fix this upon release (no hard
 
 # study-specific inputs
 TASK=mid
-sm=5
+#sm=5
 sub=$1
 run=$2
 ppi=$3 # 0 for activation, otherwise seed region or network
-model=2
+model=3
 
 
 # set inputs and general outputs (should not need to chage across studies in Smith Lab)
@@ -74,8 +74,9 @@ if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
 	fi
 
 	# network extraction. need to ensure you have run Level 1 activation
-	MASK=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-act_run-${run}_sm-${sm}.feat/mask
-	if [ ! -e ${MASK}.nii.gz ]; then
+	#MASK=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-act_run-${run}_sm-${sm}.feat/mask
+	MASK=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-act_run-${run}.feat/mask
+        if [ ! -e ${MASK}.nii.gz ]; then
 		echo "cannot run nPPI because you're missing $MASK"
 		exit
 	fi
@@ -129,9 +130,11 @@ if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
 else # otherwise, do activation and seed-based ppi
 
 	# set output based in whether it is activation or ppi
+        # commenting out the paths with the smoothing kernel flag (sm) since not in use for this study
 	if [ "$ppi" == "0" ]; then
 		TYPE=act
-		OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_run-${run}_sm-${sm}
+		#OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_run-${run}_sm-${sm}
+                OUTPUT-${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_run-${run}
 	else
 		TYPE=ppi
 		OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_seed-${ppi}_run-${run}_sm-${sm}
