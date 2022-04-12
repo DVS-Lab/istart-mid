@@ -1,4 +1,4 @@
-# ISTART-sharedreward: Monetary Incentive Delay Task Data and Analyses
+# ISTART-MID: Monetary Incentive Delay Task Data and Analyses
 This repository contains code related to our in prep project related to the Monetary Incentive Delay task processing (cf. Knutson et al., 2000, Neuroimage), substance use, and reward sensitivity (grant: R03-DA046733; grant report: Sazhin et al., 2020, JPBS). All hypotheses and analysis plans were pre-registered on AsPredicted in fall semester 2019 and data collection commenced on shortly thereafter. Imaging data will be shared via [OpenNeuro][openneuro] when the manuscript is posted on bioRxiv.
 
 
