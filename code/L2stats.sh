@@ -28,9 +28,9 @@ if [ "${#runfiles[@]}" -eq 2 ]; then
 	fi
 	# commenting out paths with smoothing kernel (sm) flag since we're not using it for this study
         #INPUT1=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-1_sm
-        INPUT1=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-1.feat
+        INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-1.feat
 	#INPUT2=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-2_sm-${sm}.feat
-	INPUT2=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-2.feat
+	INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-2.feat
 
 	# --- end EDIT HERE end: exceptions and conditionals for the task; need to exclude bad/missing runs
 
