@@ -9,7 +9,7 @@ sub=$1
 type=$2
 task=mid # edit if necessary
 #sm=5 # edit if necessary
-modelnum=3 # edit if necessary
+modelnum=2 # edit if necessary
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
 
 runfiles=(${maindir}/derivatives/fsl/EVfiles/sub-${sub}/mid/run-*_ConHit.txt)

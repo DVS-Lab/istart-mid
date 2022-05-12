@@ -6,10 +6,11 @@ basedir="$(dirname "$scriptdir")"
 nruns=2
 task=mid # edit if necessary
 
-for ppi in 0; do # putting 0 first will indicate "activation"
+for ppi in NAcc; do # putting 0 first will indicate "activation"
 
 	for sub in `cat ${scriptdir}/newsubs.txt`; do
 	  for run in `seq $nruns`; do
+		model=2
 
 			# some exceptions, hopefully temporary
 			#if [ $sub -eq 1240 ] || [ $sub -eq 1245 ] || [ $sub -eq 1247 ] || [ $sub -eq 1248 ] || [ $sub -eq 1003 ]; then # bad data
@@ -27,8 +28,8 @@ for ppi in 0; do # putting 0 first will indicate "activation"
 	  	while [ $(ps -ef | grep -v grep | grep $SCRIPTNAME | wc -l) -ge $NCORES ]; do
 	    		sleep 5s
 	  	done
-                echo $SCRIPTNAME $sub $run $ppi
-	  	bash $SCRIPTNAME $sub $run $ppi &
+                echo $SCRIPTNAME $sub $run $ppi $model
+	  	bash $SCRIPTNAME $sub $run $ppi $model&
 			sleep 2s
 	  done
 	done
