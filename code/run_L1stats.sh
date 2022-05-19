@@ -24,7 +24,7 @@ for ppi in NAcc; do # putting 0 first will indicate "activation"
 
 	  	# Manages the number of jobs and cores
 	  	SCRIPTNAME=${basedir}/code/L1stats.sh
-	  	NCORES=6
+	  	NCORES=14
 	  	while [ $(ps -ef | grep -v grep | grep $SCRIPTNAME | wc -l) -ge $NCORES ]; do
 	    		sleep 5s
 	  	done

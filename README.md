@@ -14,6 +14,8 @@ This repository contains code related to our in prep project related to the Mone
 - Tracked folders and their contents:
   - `code`: analysis code
   - `templates`: fsf template files used for FSL analyses
+    - Activation models: Model 1 is standard Model 2 includes a regressor for the right eyeball from exploring possible cocerns about niquist ghosting
+    - PPI models: Psychophysiological interaction
   - `masks`: images used as masks, networks, and seed regions in analyses
   - `derivatives`: derivatives from analysis scripts, but only text files (re-run script to regenerate larger outputs)
 
@@ -23,48 +25,22 @@ As we're collecting data, we must analyze it on an ongoing basis for the sake of
 ### Step 1: Checking your inputs
 Before you do anything, you should make sure all your inputs are there. The person managing the preprocessing should have taken care of these steps under the `DVS-Lab/istart-data` repository:
 1. Conversion to BIDS, defacing, and MRIQC (prepdata.sh)
-1. Preprocessing with [fmriprep][fmriprep] (fmriprep.sh)
-1. Creation of confound EVs (MakeConfounds.py)
-
-### Step 2: Updating subject list
-Usually we run analyses in batches (i.e., two or more subjects at a time). Rather than editing all of the run_* scripts that loop over those new subjects, you only need to update the subject numbers in the `newsubs.txt` file.
-
-Update istart-sharedreward GitHub repository (assuming these were the only changes):
-- `cd /data/projects/istart-sharedreward` (note: this can be done from any computer)
-- `git add .`
-- `git commit -m "new subjects in task-sharedreward"`
-- `git push`
-
-No other steps should create content that gets tracked in GitHub, and no scripts require any editing.
-
-### Step 3: Updating BIDS sub-*\_events.tsv files
-Since HeuDiConv can only put in a placeholder for your `sub-<sub>_task-<task>_run-<run>_events.tsv` files, you must convert your behavioral data into BIDS format. Those converted data should live with the other BIDS data. For the project in this repository, here are the steps you'd take.
-
-First, before you do anything else, make sure local source data is current. These source data (or raw data) is stored on a different repository (`DVS-Lab/istart-data`).
-  - `cd /data/projects/istart`
-  - `git pull`
-
-After you've ensured the local source data is current, you then run the following steps on the Smith Lab Linux box.
-1. go to the correct location: `cd /data/projects/istart-data`
-1. open Matlab: `matlab &`
-1. run `run_convertSharedReward2BIDSevents.m` from Matlab (report errors on Asana and raise at lab meeting)
-1. update GitHub (assuming these were the only changes):
-  - `git add .`
-  - `git commit -m "update BIDS tsv files for new subjects in task-sharedreward"`
-  - `git push`
+2. Preprocessing with [fmriprep][fmriprep] (fmriprep.sh)
+3. Creation of confound EVs (MakeConfounds.py)
+4. Reward sensitivity 'measures in istart-mid/code'
 
 
-### Step 4: Creating 3-column files for FSL
-1. go to the correct location: `cd /data/projects/istart-sharedreward`
-1. run script: `bash code/run_gen3colfiles.sh`
+### Step 2: Creating 3-column files for FSL
+1. go to the correct location: `cd /data/projects/istart-mid`
+2. run script: `bash code/run_gen3colfiles.sh`
+3. run `python Extract_Eyeballphys.py` if you want to run model2
 
-### Step 5: Running the analyses
-1. go to the correct location on the Smith Lab Linux box: `cd /data/projects/istart-sharedreward`
-1. run scripts with nohup (prevents process from hanging up if you close your computer or lose your connection):
+### Step 3: Running the analyses
+1. go to the correct location on the Smith Lab Linux box: `cd /data/projects/istart-mid`
+2. run scripts with nohup (prevents process from hanging up if you close your computer or lose your connection):
   - `nohup bash code/run_L1stats.sh > nohup_L1stats.out &` (wait till this is done before running L2stats.sh)
   - `nohup bash code/run_L2stats.sh > nohup_L2stats.out &`
-1. review *.out logs from `nohup`. (if no errors, delete them. if errors, report on Asana and raise at lab meeting)
-
+3. review *.out logs from `nohup`. (if no errors, delete them. if errors, report on Asana and raise at lab meeting)
 
 
 ## External: Basic commands to reproduce our all of our analyses (under construction)
@@ -72,8 +48,8 @@ Note: this section is still under construction. It is intended for individuals o
 
 ```
 # get code and data (two options for data)
-git clone https://github.com/DVS-Lab/istart-sharedreward
-cd  istart-sharedreward
+git clone https://github.com/DVS-Lab/istart-mid
+cd  istart-mid
 
 rm -rf bids # remove bids subdirectory since it will be replaced below
 # can this be made into a sym link?
