@@ -22,6 +22,7 @@ run=$2
 ppi=$3 # 0 for activation, otherwise seed region or network
 model=$4
 
+echo Running L1 sub-${sub} run-${run} ppi: ${ppi} model: ${model}
 
 # set inputs and general outputs (should not need to chage across studies in Smith Lab)
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
@@ -67,6 +68,7 @@ if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
 	# check for output and skip existing
 	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-nppi-${ppi}_run-${run}_sm-${sm}
 	if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
+		echo "OUTPUT exists" sub-${sub} run-${run} ppi: ${ppi} model: ${model}
 		exit
 	else
 		echo "missing feat output: $OUTPUT " >> ${maindir}/re-runL1.log
@@ -142,6 +144,7 @@ else # otherwise, do activation and seed-based ppi
 
 	# check for output and skip existing
 	if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
+		echo "OUTPUT exists" sub-${sub} run-${run} ppi: ${ppi} model: ${model}
 		exit
 	else
 		echo "missing feat output: $OUTPUT " >> ${maindir}/re-runL1.log

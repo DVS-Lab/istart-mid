@@ -9,28 +9,29 @@ sub=$1
 type=$2
 task=mid # edit if necessary
 #sm=5 # edit if necessary
-modelnum=2 # edit if necessary
+modelnum=1 # edit if necessary
+
+echo "Running L2 sub:" ${sub} "type" ${type} modelnumber: ${modelnum}
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
 
 runfiles=(${maindir}/derivatives/fsl/EVfiles/sub-${sub}/mid/run-*_ConHit.txt)
 
 # --- start EDIT HERE start: exceptions and conditionals for the task
 if [ "${#runfiles[@]}" -eq 2 ]; then
-	NCOPES=13
+	
 
 	# ppi has more contrasts than act (phys), so need a different L2 template
 	if [ "${type}" == "act" ]; then
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${modelnum}_type-act.fsf
-		NCOPES=${NCOPES}
+		NCOPES=14
+		INPUT1=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-1.feat
+		INPUT2=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-2.feat
 	else
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-1_type-ppi.fsf
 		let NCOPES=${NCOPES}+1 # add 1 since we tend to only have one extra contrast for PPI
+		INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-1_sm-.feat
+		INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-2_sm-.feat
 	fi
-	# commenting out paths with smoothing kernel (sm) flag since we're not using it for this study
-        #INPUT1=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-1_sm
-        INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-1_sm-.feat
-	#INPUT2=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-2_sm-${sm}.feat
-	INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-2_sm-.feat
 
 	# --- end EDIT HERE end: exceptions and conditionals for the task; need to exclude bad/missing runs
 

@@ -24,7 +24,7 @@ sub=$1
 
 
 for run in 1 2; do
-  input=${datadir}/bids/sub-${sub}/func/sub-${sub}_task-mid_run-0${run}_events.tsv
+  input=${datadir}/bids/sub-${sub}/func/sub-${sub}_task-mid_run-${run}_events.tsv
   output=${baseout}/sub-${sub}/mid
   mkdir -p $output
   if [ -e $input ]; then # sub-3176/sharedreward/run-01_event_computer_punish.txt
