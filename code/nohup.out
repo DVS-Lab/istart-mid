@@ -1,0 +1,315 @@
+/data/projects/istart-mid/code/L1stats.sh 1001 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1001 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1002 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1001/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1002 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1001/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1003 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1002/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1003 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1002/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1004 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1003/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1004/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1004 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1004/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1006 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1006 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1006/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+/data/projects/istart-mid/code/L1stats.sh 1007 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1007/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1007 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1009 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1007/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1009/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1009 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1009/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1010 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1010/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1010 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1010/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1011 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1011/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1011 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1012 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1011/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1012/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1012 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1012/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1016 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1016/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1016 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1016/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1019 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1019 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1019/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1019/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1021 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1021 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1021/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1021/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1240 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1240 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1242 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1242/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1242 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1243 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1243/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1243 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1244 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1244 2 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1243/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1244/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1244/L1_task-mid_model-2_type-ppi_seed-NAcc_run-2_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 1245 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1245/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat ${fsfroot}.fsf -D $FD -I $session -prestats" -b $prestatsTime -h $initID $jobHalt -N feat2_pre -l logs "
+    (procedure "firstLevelMaster" line 168)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat ${fsfroot}.fsf -D $FD -I $session -init" -b 10 -N feat0_init -l logs "
+    (procedure "firstLevelMaster" line 145)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat ${fsfroot}.fsf -D $FD -I $session -prestats" -b $prestatsTime -h $initID $jobHalt -N feat2_pre -l logs "
+    (procedure "firstLevelMaster" line 168)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat ${fsfroot}.fsf -D $FD -I $session -prestats" -b $prestatsTime -h $initID $jobHalt -N feat2_pre -l logs "
+    (procedure "firstLevelMaster" line 168)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat ${fsfroot}.fsf -D $FD -I $session -init" -b 10 -N feat0_init -l logs "
+    (procedure "firstLevelMaster" line 145)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat ${fsfroot}.fsf -D $FD -I $session -prestats" -b $prestatsTime -h $initID $jobHalt -N feat2_pre -l logs "
+    (procedure "firstLevelMaster" line 168)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+/data/projects/istart-mid/code/L1stats.sh 1245 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1247 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1247 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1248 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1248 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1249 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1249 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1251 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1251 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1253 1 NAcc 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+/data/projects/istart-mid/code/L1stats.sh 1253 2 NAcc 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+/data/projects/istart-mid/code/L1stats.sh 1255 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1255 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1276 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1276 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1282 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1282 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1285 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1285 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1286 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1286 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1294 1 NAcc 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+/data/projects/istart-mid/code/L1stats.sh 1294 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1300 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1300 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1301 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1301 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1302 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 1302 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3101 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3101 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3116 1 NAcc 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+/data/projects/istart-mid/code/L1stats.sh 3116 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3122 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3122 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3140 1 NAcc 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+/data/projects/istart-mid/code/L1stats.sh 3140 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3143 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3143 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3166 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3166 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3173 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3173 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3176 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3173/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3176/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 3176 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3186 1 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3186 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3189 1 NAcc 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3189/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 3189 2 NAcc 2
+/data/projects/istart-mid/code/L1stats.sh 3190 1 NAcc 2
+rm: cannot remove '/data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/stats': Directory not empty
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-+.feat/report_log.html
+/data/projects/istart-mid/code/L1stats.sh 3190 2 NAcc 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat ${fsfroot}.fsf -D $FD -poststats 0 " -b 119 -h $statsID -N feat4_post -l logs "
+    (procedure "firstLevelMaster" line 191)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3173/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/example_func2standard.mat': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3173/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard2example_func.mat': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3173/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard.nii.gz': File exists
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat ${fsfroot}.fsf -D $FD -poststats 0 " -b 119 -h $statsID -N feat4_post -l logs "
+    (procedure "firstLevelMaster" line 191)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.3/bin/feat" line 390)
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3176/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/example_func2standard.mat': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3176/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard2example_func.mat': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3176/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard.nii.gz': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3189/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/example_func2standard.mat': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3189/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard2example_func.mat': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3189/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard.nii.gz': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/example_func2standard.mat': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard2example_func.mat': File exists
+ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard.nii.gz': File exists

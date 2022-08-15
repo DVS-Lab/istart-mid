@@ -83,7 +83,7 @@ if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
 		exit
 	fi
 	for net in `seq 0 9`; do
-		NET=${maindir}/masks/nan_rPNAS_2mm_net000${net}.nii.gz
+		NET=${maindir}/masks/networkmasks/nan_rPNAS_2mm_net000${net}.nii.gz
 		TSFILE=${MAINOUTPUT}/ts_task-${TASK}_net000${net}_nppi-${ppi}_run-${run}.txt
 		fsl_glm -i $DATA -d $NET -o $TSFILE --demean -m $MASK
 		eval INPUT${net}=$TSFILE
@@ -120,6 +120,7 @@ if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
 	-e 's@INPUT0@'$INPUT0'@g' \
 	-e 's@INPUT1@'$INPUT1'@g' \
 	-e 's@INPUT2@'$INPUT2'@g' \
+	-e 's@INPUT3@'$INPUT3'@g' \
 	-e 's@INPUT4@'$INPUT4'@g' \
 	-e 's@INPUT5@'$INPUT5'@g' \
 	-e 's@INPUT6@'$INPUT6'@g' \
