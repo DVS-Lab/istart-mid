@@ -1,0 +1,340 @@
+Running L1 sub-1001 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1001/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1001 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1001/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1002 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1002/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1002 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1002/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1003 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1003/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1003 run-2 ppi: 0 model: 2
+Running L1 sub-1004 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1004/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1004 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1004/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1006 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-1006 run-2 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-1007 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1007/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1007 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1007/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1009 run-1 ppi: 0 model: 2
+Running L1 sub-1009 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1009/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1009/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1010 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1010/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1010 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1010/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1011 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1011/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1011 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1011/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1012 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1012/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1012 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1012/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1016 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1016/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1016 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1016/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1019 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1019/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1019 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1019/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1021 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1021/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1021 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1021/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1240 run-1 ppi: 0 model: 2
+Running L1 sub-1240 run-2 ppi: 0 model: 2
+Running L1 sub-1242 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1242/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1242 run-2 ppi: 0 model: 2
+Running L1 sub-1243 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1243/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1243 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1243/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1244 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1244/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1244 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1244/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1245 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1245/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1245 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1245/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1247 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1247/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1247 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1247/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1248 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1248/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1248 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1248/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1249 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1249/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1249 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1249/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1251 run-1 ppi: 0 model: 2
+Running L1 sub-1251 run-2 ppi: 0 model: 2
+Running L1 sub-1253 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-1253 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1253/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1255 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1255/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1255 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1255/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1276 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1276/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1276 run-2 ppi: 0 model: 2
+Running L1 sub-1282 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1282/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1282 run-2 ppi: 0 model: 2
+Running L1 sub-1285 run-1 ppi: 0 model: 2
+Running L1 sub-1285 run-2 ppi: 0 model: 2
+Running L1 sub-1286 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1286/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1286 run-2 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-1294 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1294/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1294 run-2 ppi: 0 model: 2
+Running L1 sub-1300 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1300/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1300 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1300/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1301 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1301/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1301 run-2 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1301/L1_task-mid_model-2_type-act_run-2.feat/report_log.html
+Running L1 sub-1302 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1302/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-1302 run-2 ppi: 0 model: 2
+Running L1 sub-3101 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3101 run-2 ppi: 0 model: 2
+Running L1 sub-3116 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3116/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-3116 run-2 ppi: 0 model: 2
+Running L1 sub-3122 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3122 run-2 ppi: 0 model: 2
+Running L1 sub-3140 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3140/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-3140 run-2 ppi: 0 model: 2
+Running L1 sub-3143 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3143/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-3143 run-2 ppi: 0 model: 2
+Running L1 sub-3166 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3166/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-3166 run-2 ppi: 0 model: 2
+Running L1 sub-3170 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3170 run-2 ppi: 0 model: 2
+Running L1 sub-3173 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3173/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-3173 run-2 ppi: 0 model: 2
+Running L1 sub-3176 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3176/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-3176 run-2 ppi: 0 model: 2
+Running L1 sub-3186 run-1 ppi: 0 model: 2
+Running L1 sub-3186 run-2 ppi: 0 model: 2
+Running L1 sub-3189 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3189/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-3189 run-2 ppi: 0 model: 2
+Running L1 sub-3190 run-1 ppi: 0 model: 2
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-act_run-1.feat/report_log.html
+Running L1 sub-3190 run-2 ppi: 0 model: 2
+Running L1 sub-3199 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3199 run-2 ppi: 0 model: 2
+Running L1 sub-3200 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3200 run-2 ppi: 0 model: 2
+Running L1 sub-3206 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3206 run-2 ppi: 0 model: 2
+Running L1 sub-3212 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3212 run-2 ppi: 0 model: 2
+Running L1 sub-3218 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3218 run-2 ppi: 0 model: 2
+Running L1 sub-3220 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3220 run-2 ppi: 0 model: 2
+Running L1 sub-3223 run-1 ppi: 0 model: 2
+child process exited abnormally
+    while executing
+"fsl:exec "${FSLDIR}/bin/feat_model design" $fmri(featModelOpts) -N feat0_model -l logs "
+    (procedure "firstLevelMaster" line 43)
+    invoked from within
+"firstLevelMaster $session"
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L1 sub-3223 run-2 ppi: 0 model: 2
