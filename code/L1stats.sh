@@ -124,6 +124,7 @@ if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
 	-e 's@INPUT4@'$INPUT4'@g' \
 	-e 's@INPUT5@'$INPUT5'@g' \
 	-e 's@INPUT6@'$INPUT6'@g' \
+	-e 's@INPUT7@'$INPUT7'@g' \
 	-e 's@INPUT8@'$INPUT8'@g' \
 	-e 's@INPUT9@'$INPUT9'@g' \
 	-e 's@NVOLS@'$NVOLUMES'@g' \

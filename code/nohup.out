@@ -313,3 +313,4 @@ ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/su
 ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/example_func2standard.mat': File exists
 ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard2example_func.mat': File exists
 ln: failed to create symbolic link '/data/projects/istart-mid/derivatives/fsl/sub-3190/L1_task-mid_model-2_type-ppi_seed-NAcc_run-1_sm-.feat/reg/standard.nii.gz': File exists
+bash: code/run_L1stats.sh: No such file or directory

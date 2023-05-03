@@ -6,12 +6,12 @@ basedir="$(dirname "$scriptdir")"
 nruns=2
 task=mid # edit if necessary
 
-for ppi in dmn; do  #in 0 NAcc; do # putting 0 first will indicate "activation"
+for ppi in 0; do  #in 0 NAcc; do # putting 0 first will indicate "activation"
 
 	for sub in `cat ${scriptdir}/_newsubs.txt`; do #`cat ${scriptdir}/_newsubs.txt`; do #1300; do #
 		for run in 1 2; do
 
-		model=1
+		model=4
 
 			# some exceptions, hopefully temporary
 			#if [ $sub -eq 1240 ] || [ $sub -eq 1245 ] || [ $sub -eq 1247 ] || [ $sub -eq 1248 ] || [ $sub -eq 1003 ]; then # bad data
