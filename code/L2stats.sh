@@ -9,7 +9,7 @@ sub=$1
 type=$2
 task=mid # edit if necessary
 #sm=5 # edit if necessary
-modelnum=1 # edit if necessary
+modelnum=4 # edit if necessary
 
 echo "Running L2 sub:" ${sub} "type" ${type} modelnumber: ${modelnum}
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
@@ -29,8 +29,9 @@ if [ "${#runfiles[@]}" -eq 2 ]; then
 	else
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-1_type-ppi.fsf
 		let NCOPES=${NCOPES}+1 # add 1 since we tend to only have one extra contrast for PPI
-		INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-1_sm-.feat
-		INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-2_sm-.feat
+#L1_task-mid_model-4_type-ppi_seed-NAcc_run-1_sm-.feat		
+		INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-ppi_${type}_run-1_sm-.feat
+		INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-ppi_${type}_run-2_sm-.feat
 	fi
 
 	# --- end EDIT HERE end: exceptions and conditionals for the task; need to exclude bad/missing runs
