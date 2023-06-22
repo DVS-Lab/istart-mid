@@ -1,0 +1,14 @@
+</pre><hr>Higher-level input files preparation<br><pre>
+
+/usr/share/fsl/6.0.4/bin/featregapply /data/projects/istart-mid/derivatives/fsl/sub-1001/L2_task-mid_model-1_type-REPLACEME.gfeat/copeCOPENUM.feat
+couldn't change working directory to "/data/projects/istart-mid/derivatives/fsl/sub-1001/L2_task-mid_model-1_type-REPLACEME.gfeat/copeCOPENUM.feat": no such file or directory
+    while executing
+"cd [ lindex $argv 0 ]"
+    (file "/usr/share/fsl/6.0.4/bin/featregapply" line 156)
+
+FATAL ERROR ENCOUNTERED:
+COMMAND:
+/usr/share/fsl/6.0.4/bin/featregapply /data/projects/istart-mid/derivatives/fsl/sub-1001/L2_task-mid_model-1_type-REPLACEME.gfeat/copeCOPENUM.feat
+ERROR MESSAGE:
+child process exited abnormally
+END OF ERROR MESSAGE

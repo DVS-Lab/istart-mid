@@ -1,0 +1,25 @@
+
+/bin/cp /data/projects/istart-mid/templates/L3_task-mid_model1_type-act_wInt.fsf design.fsf
+
+/usr/share/fsl/6.0.4/bin/feat_model design
+
+mkdir .files;cp /usr/share/fsl/6.0.4/doc/fsl.css .files;cp -r /usr/share/fsl/6.0.4/doc/images .files/images
+
+/usr/share/fsl/6.0.4/bin/fsl_sub -T 60 -l logs -N feat2_pre   /usr/share/fsl/6.0.4/bin/feat /data/projects/istart-mid/templates/OUTPUT.gfeat/design.fsf -D /data/projects/istart-mid/templates/OUTPUT.gfeat -gfeatprep
+child process exited abnormally
+    while executing
+"if { [ catch {
+
+for { set argindex 1 } { $argindex < $argc } { incr argindex 1 } {
+    switch -- [ lindex $argv $argindex ] {
+
+	-I {
+	    incr arginde..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 312)
+
+FATAL ERROR ENCOUNTERED:
+COMMAND:
+/usr/share/fsl/6.0.4/bin/fsl_sub -T 60 -l logs -N feat2_pre   /usr/share/fsl/6.0.4/bin/feat /data/projects/istart-mid/templates/OUTPUT.gfeat/design.fsf -D /data/projects/istart-mid/templates/OUTPUT.gfeat -gfeatprep
+ERROR MESSAGE:
+child process exited abnormally
+END OF ERROR MESSAGE

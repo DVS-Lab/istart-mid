@@ -1,0 +1,61 @@
+<HTML><HEAD>
+<!--refreshstart-->
+
+<!--refreshstop-->
+<link REL=stylesheet TYPE=text/css href=.files/fsl.css>
+<TITLE>FSL</TITLE></HEAD><BODY><OBJECT data=report.html></OBJECT>
+<h2>Progress Report / Log</h2>
+Started at Thu 01 Jun 2023 04:24:36 PM EDT<p>
+Feat main script<br><pre>
+
+/bin/cp /data/projects/istart-mid/templates/L3_task-mid_model1_type-act_wInt.fsf design.fsf
+
+/usr/share/fsl/6.0.4/bin/feat_model design
+
+mkdir .files;cp /usr/share/fsl/6.0.4/doc/fsl.css .files;cp -r /usr/share/fsl/6.0.4/doc/images .files/images
+
+/usr/share/fsl/6.0.4/bin/fsl_sub -T 60 -l logs -N feat2_pre   /usr/share/fsl/6.0.4/bin/feat /data/projects/istart-mid/templates/OUTPUT.gfeat/design.fsf -D /data/projects/istart-mid/templates/OUTPUT.gfeat -gfeatprep
+child process exited abnormally
+    while executing
+"if { [ catch {
+
+for { set argindex 1 } { $argindex < $argc } { incr argindex 1 } {
+    switch -- [ lindex $argv $argindex ] {
+
+	-I {
+	    incr arginde..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 312)
+
+FATAL ERROR ENCOUNTERED:
+COMMAND:
+/usr/share/fsl/6.0.4/bin/fsl_sub -T 60 -l logs -N feat2_pre   /usr/share/fsl/6.0.4/bin/feat /data/projects/istart-mid/templates/OUTPUT.gfeat/design.fsf -D /data/projects/istart-mid/templates/OUTPUT.gfeat -gfeatprep
+ERROR MESSAGE:
+child process exited abnormally
+END OF ERROR MESSAGE
+</pre><hr>Higher-level input files preparation<br><pre>
+
+/usr/share/fsl/6.0.4/bin/featregapply /data/projects/istart-mid/derivatives/fsl/sub-1001/L2_task-mid_model-1_type-REPLACEME.gfeat/copeCOPENUM.feat
+couldn't change working directory to "/data/projects/istart-mid/derivatives/fsl/sub-1001/L2_task-mid_model-1_type-REPLACEME.gfeat/copeCOPENUM.feat": no such file or directory
+    while executing
+"cd [ lindex $argv 0 ]"
+    (file "/usr/share/fsl/6.0.4/bin/featregapply" line 156)
+
+FATAL ERROR ENCOUNTERED:
+COMMAND:
+/usr/share/fsl/6.0.4/bin/featregapply /data/projects/istart-mid/derivatives/fsl/sub-1001/L2_task-mid_model-1_type-REPLACEME.gfeat/copeCOPENUM.feat
+ERROR MESSAGE:
+child process exited abnormally
+END OF ERROR MESSAGE
+child process exited abnormally
+    while executing
+"if { [ catch {
+
+for { set argindex 1 } { $argindex < $argc } { incr argindex 1 } {
+    switch -- [ lindex $argv $argindex ] {
+
+	-I {
+	    incr arginde..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 312)
+Error encountered while running in main feat script, halting.
+child process exited abnormally
+</pre><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></BODY></HTML>
