@@ -25,7 +25,10 @@ Composite_raw = [data.('ID'), data.('BISBAS_BAS'), data.('SPSRWD')];
 AUDIT_raw = [data.('ID'), data.('audit_standard_score')];
 DUDIT_raw = [data.('ID'), data.('dudit_standard_score')];
 
-subjects = [1001, 1003, 1004, 1006, 1009, 1010, 1011, 1012, 1013, 1015, 1016, 1019, 1021, 1242, 1243, 1244, 1245, 1247, 1248, 1249, 1253, 1255, 1276, 1282, 1286, 1294, 1300, 1301, 1302, 1303, 3101, 3116, 3122, 3125, 3140, 3143, 3152, 3164, 3166, 3167, 3170, 3173, 3175, 3176, 3189, 3190, 3199, 3200, 3206, 3210, 3212, 3218, 3220, 3223];
+subjects = [1001, 1002, 1003, 1004, 1006, 1007, 1009, 1010, 1011, 1012, ...
+1013, 1015, 1016, 1019, 1021,1242,1243,1244,1245,1247,1248,1249,1255,1276, ...
+1282, 1286, 1294,1300,1301,1302,1303,3116,3125,3140,3143,3166,3167,3170,3173, ...
+3175,3176, 3189,3190,3199,3200,3206,3212,3218,3220];
 
 % Missing: 1002 1007 (AUDIT)
 %% Read in the tsr and means 
@@ -127,44 +130,44 @@ writetable(Composite_final_output, fileoutput); % Save as csv file
 %% Make substance use
 
 
-AUDIT_missing = [];
-AUDIT_final = [];
-for ii = 1:length(subjects)
-    subj = subjects(ii);
-    subj_row = find(AUDIT_raw==subj);
-    if subj_row > 0
-        test = AUDIT_raw(subj_row(1),:);
-        if test(2) < 100 % Tests for 999s in the data
-            AUDIT_final = [AUDIT_final;test];
-        else
-            AUDIT_missing = [AUDIT_missing; subjects(ii)];
-        end
-    end
-    
-end
-
-DUDIT_missing = [];
-DUDIT_final = [];
-
-for ii = 1:length(subjects)
-    subj = subjects(ii);
-    subj_row = find(DUDIT_raw==subj);
-    if subj_row > 0
-        test = DUDIT_raw(subj_row(1),:);
-        if test(2) < 100 % Tests for 999s in the data
-            DUDIT_final = [DUDIT_final;test];
-        else
-            DUDIT_missing = [DUDIT_missing; subjects(ii)];
-        end
-    end 
-end
+%AUDIT_missing = [];
+%AUDIT_final = [];
+%for ii = 1:length(subjects)
+%    subj = subjects(ii);
+%    subj_row = find(AUDIT_raw==subj);
+%    if subj_row > 0
+%        test = AUDIT_raw(subj_row(1),:);
+%        if test(2) < 100 % Tests for 999s in the data
+%            AUDIT_final = [AUDIT_final;test];
+%        else
+%            AUDIT_missing = [AUDIT_missing; subjects(ii)];
+%        end
+%    end
+%    
+%end
+%
+%DUDIT_missing = [];
+%DUDIT_final = [];%
+%
+%for ii = 1:length(subjects)
+%    subj = subjects(ii);
+%    subj_row = find(DUDIT_raw==subj);
+%    if subj_row > 0
+%        test = DUDIT_raw(subj_row(1),:);
+%        if test(2) < 100 % Tests for 999s in the data
+%            DUDIT_final = [DUDIT_final;test];
+%        else
+%            DUDIT_missing = [DUDIT_missing; subjects(ii)];
+%        end
+%    end 
+%end
 
 %% Perform z-scoring.
 
-comp_SU = zscore(AUDIT_final(:,2)) + zscore(DUDIT_final(:,2)); % combine measures for your final data
+%comp_SU = zscore(AUDIT_final(:,2)) + zscore(DUDIT_final(:,2)); % combine measures for your final data
 
-figure, hist(comp_SU,50); title('Composite') % look at your data
-figure, hist(comp_SU.^2,50); title('Composite Squared') % look at your data squared
+%figure, hist(comp_SU,50); title('Composite') % look at your data
+%figure, hist(comp_SU.^2,50); title('Composite Squared') % look at your data squared
 
 % normed_comp_SU = zeros(length(compRS),1); % create empty array for storing data
 % deciles = prctile(compRS,[10 20 30 40 50 60 70 80 90]); % identify quintiles
@@ -187,12 +190,12 @@ figure, hist(comp_SU.^2,50); title('Composite Squared') % look at your data squa
 
 %% Output results.
 
-Combined_sub = [AUDIT_final(:,1), comp_SU, comp_SU.^2]; % Pairs subject numbers with RS scores. 
-Composite_final_output_substance = array2table(Combined_sub(1:end,:),'VariableNames', {'Subject', 'Composite_Substance', 'Composite_Substance_Squared' });
+%Combined_sub = [AUDIT_final(:,1), comp_SU, comp_SU.^2]; % Pairs subject numbers with RS scores. 
+%Composite_final_output_substance = array2table(Combined_sub(1:end,:),'VariableNames', {'Subject', 'Composite_Substance', 'Composite_Substance_Squared' });
 
-name = ('\Composite_Substance.xlsx');
-fileoutput = [output_path, name];
-writetable(Composite_final_output_substance, fileoutput); % Save as csv file
+%name = ('\Composite_Substance.xlsx');
+%fileoutput = [output_path, name];
+%writetable(Composite_final_output_substance, fileoutput); % Save as csv file
 
 %% Combine RS and Substance Use with interactions
 
@@ -202,11 +205,12 @@ writetable(Composite_final_output_substance, fileoutput); % Save as csv file
 % 7 substance use * RS
 % 8 substance use * RS squared
 
-Reward_substance = [Composite_final_output_substance.Composite_Substance,  Composite_final_output.Composite_Reward, Composite_final_output.Composite_Reward_Squared, Composite_final_output_substance.Composite_Substance.*Composite_final_output.Composite_Reward, Composite_final_output_substance.Composite_Substance.*Composite_final_output.Composite_Reward_Squared];
-Reward_substance_demeaned = Reward_substance - mean(Reward_substance);
-Reward_substance_final = [Composite_final_output_substance.Subject, Reward_substance_demeaned];
+%Reward_substance = [Composite_final_output_substance.Composite_Substance,  Composite_final_output.Composite_Reward, Composite_final_output.Composite_Reward_Squared, Composite_final_output_substance.Composite_Substance.*Composite_final_output.Composite_Reward, Composite_final_output_substance.Composite_Substance.*Composite_final_output.Composite_Reward_Squared];
+%Reward_substance_demeaned = Reward_substance - mean(Reward_substance);
+%Reward_substance_final = [Composite_final_output_substance.Subject, Reward_substance_demeaned];
 
-Reward_substance_output = array2table(Reward_substance_final(1:end,:),'VariableNames', {'Subject', 'Composite_Substance', 'Composite_Reward', 'Composite_Reward_Squared', 'Composite_SubstanceXReward', 'Composite_SubstanceXReward_Squared'});
+%Reward_substance_output = array2table(Reward_substance_final(1:end,:),'VariableNames', {'Subject', 'Composite_Substance', 'Composite_Reward', 'Composite_Reward_Squared', 'Composite_SubstanceXReward', 'Composite_SubstanceXReward_Squared'});
+Reward_substance_output = array2table(Combined_reward(1:end,:),'VariableNames', {'Subject', 'Composite_Reward', 'Composite_Reward_Squared'});
 
 %% Combine into comprehensive set of IDs
 
@@ -217,7 +221,7 @@ ones_output = array2table(A(1:end,:),'VariableNames', {'Ones'});
 name = ('ones.xls');
 writetable(ones_output, name); % Save as csv file
 
-final_output_reward = [Reward_substance_output(:,'Subject'), ones_output(:,'Ones'), Reward_substance_output(:,'Composite_Substance'), Reward_substance_output(:,'Composite_Reward'), Reward_substance_output(:,'Composite_Reward_Squared'), Reward_substance_output(:,'Composite_SubstanceXReward'), Reward_substance_output(:,'Composite_SubstanceXReward_Squared'), motion_data_output(:,'tsnr'), motion_data_output(:,'fd_mean')];
+final_output_reward = [Reward_substance_output(:,'Subject'), ones_output(:,'Ones'), Reward_substance_output(:,'Composite_Reward'), Reward_substance_output(:,'Composite_Reward_Squared'), motion_data_output(:,'tsnr'), motion_data_output(:,'fd_mean')];
 
 dest_path = [output_path, 'final_output_reward.xls'];
 [L] = isfile(dest_path);
