@@ -1,0 +1,780 @@
+Running L2 sub: 1001 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1001/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1001/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1002 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1002/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1002/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1003 type modelnumber: 4
+Subject: 1003 has 1 runs instead of 2
+Running L2 sub: 1004 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1004/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1004/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1007 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1007/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1007/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1009 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1009/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1009/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1010 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1010/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1010/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1011 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1011/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1011/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1012 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1012/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1012/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1013 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1013/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1013/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1015 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1015/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1015/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1016 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1016/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1016/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1019 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1019/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1019/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1021 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1021/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1021/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1242 type modelnumber: 4
+Subject: 1242 has 1 runs instead of 2
+Running L2 sub: 1243 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1243/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1243/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1244 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1244/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1244/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1245 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1245/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1245/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1247 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1247/L2_task-mid_model-4_type-.gfeat/report_log.html
+Running L2 sub: 1248 type modelnumber: 4
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1247/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1248/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1248/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1249 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1249/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1249/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1253 type modelnumber: 4
+Subject: 1253 has 1 runs instead of 2
+Running L2 sub: 1255 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1255/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1255/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1276 type modelnumber: 4
+Subject: 1276 has 1 runs instead of 2
+Running L2 sub: 1282 type modelnumber: 4
+Subject: 1282 has 1 runs instead of 2
+Running L2 sub: 1286 type modelnumber: 4
+Subject: 1286 has 1 runs instead of 2
+Running L2 sub: 1294 type modelnumber: 4
+Subject: 1294 has 1 runs instead of 2
+Running L2 sub: 1300 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1300/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1300/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1301 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1301/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1301/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1302 type modelnumber: 4
+Subject: 1302 has 1 runs instead of 2
+Running L2 sub: 1303 type modelnumber: 4
+Subject: 1303 has 1 runs instead of 2
+Running L2 sub: 3116 type modelnumber: 4
+Subject: 3116 has 1 runs instead of 2
+Running L2 sub: 3125 type modelnumber: 4
+Subject: 3125 has 1 runs instead of 2
+Running L2 sub: 3140 type modelnumber: 4
+Subject: 3140 has 1 runs instead of 2
+Running L2 sub: 3143 type modelnumber: 4
+Subject: 3143 has 1 runs instead of 2
+Running L2 sub: 3152 type modelnumber: 4
+Subject: 3152 has 1 runs instead of 2
+Running L2 sub: 3164 type modelnumber: 4
+Subject: 3164 has 1 runs instead of 2
+Running L2 sub: 3166 type modelnumber: 4
+Subject: 3166 has 1 runs instead of 2
+Running L2 sub: 3167 type modelnumber: 4
+Subject: 3167 has 1 runs instead of 2
+Running L2 sub: 3173 type modelnumber: 4
+Subject: 3173 has 1 runs instead of 2
+Running L2 sub: 3175 type modelnumber: 4
+Subject: 3175 has 1 runs instead of 2
+Running L2 sub: 3176 type modelnumber: 4
+Subject: 3176 has 1 runs instead of 2
+Running L2 sub: 3189 type modelnumber: 4
+Subject: 3189 has 1 runs instead of 2
+Running L2 sub: 3190 type modelnumber: 4
+Subject: 3190 has 1 runs instead of 2
+Running L2 sub: 3199 type modelnumber: 4
+Subject: 3199 has 1 runs instead of 2
+Running L2 sub: 3200 type modelnumber: 4
+Subject: 3200 has 1 runs instead of 2
+Running L2 sub: 3206 type modelnumber: 4
+Subject: 3206 has 1 runs instead of 2
+Running L2 sub: 3210 type modelnumber: 4
+Subject: 3210 has 1 runs instead of 2
+Running L2 sub: 3212 type modelnumber: 4
+Subject: 3212 has 1 runs instead of 2
+Running L2 sub: 3218 type modelnumber: 4
+Subject: 3218 has 1 runs instead of 2
+Running L2 sub: 3220 type modelnumber: 4
+Subject: 3220 has 1 runs instead of 2
+Running L2 sub: 3223 type modelnumber: 4
+Subject: 3223 has 1 runs instead of 2
+Running L2 sub: 1001 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1001/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1001/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1002 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1002/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1002/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1003 type modelnumber: 4
+Subject: 1003 has 1 runs instead of 2
+Running L2 sub: 1004 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1004/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1004/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1007 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1007/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1007/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1009 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1009/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1009/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1010 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1010/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1010/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1011 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1011/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1011/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1012 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1012/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1012/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1013 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1013/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1013/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1015 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1015/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1015/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1016 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1016/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1016/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1019 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1019/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1019/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1021 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1021/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1021/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1242 type modelnumber: 4
+Subject: 1242 has 1 runs instead of 2
+Running L2 sub: 1243 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1243/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1243/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1244 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1244/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1244/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1245 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1245/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1245/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1247 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1247/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1247/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1248 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1248/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1248/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1249 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1249/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1249/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1253 type modelnumber: 4
+Subject: 1253 has 1 runs instead of 2
+Running L2 sub: 1255 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1255/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1255/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1276 type modelnumber: 4
+Subject: 1276 has 1 runs instead of 2
+Running L2 sub: 1282 type modelnumber: 4
+Subject: 1282 has 1 runs instead of 2
+Running L2 sub: 1286 type modelnumber: 4
+Subject: 1286 has 1 runs instead of 2
+Running L2 sub: 1294 type modelnumber: 4
+Subject: 1294 has 1 runs instead of 2
+Running L2 sub: 1300 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1300/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1300/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1301 type modelnumber: 4
+To view the FEAT progress and final report, point your web browser at /data/projects/istart-mid/derivatives/fsl/sub-1301/L2_task-mid_model-4_type-.gfeat/report_log.html
+couldn't read file "/data/projects/istart-mid/derivatives/fsl/sub-1301/L1_task-mid_model-4_type-_run-1_sm-.feat/design.fsf": no such file or directory
+    while executing
+"source ${featdir}/design.fsf"
+    (procedure "feat5:getconname" line 2)
+    invoked from within
+"feat5:getconname $ff_one $nci "
+    invoked from within
+"if { $done_something == 0 } {
+
+    if { ! $fmri(inmelodic) } {
+       if { $fmri(level) == 1 } {
+	      for { set session 1 } { $session <= $fmri(mult..."
+    (file "/usr/share/fsl/6.0.4/bin/feat" line 390)
+Running L2 sub: 1302 type modelnumber: 4
+Subject: 1302 has 1 runs instead of 2
+Running L2 sub: 1303 type modelnumber: 4
+Subject: 1303 has 1 runs instead of 2
+Running L2 sub: 3116 type modelnumber: 4
+Subject: 3116 has 1 runs instead of 2
+Running L2 sub: 3125 type modelnumber: 4
+Subject: 3125 has 1 runs instead of 2
+Running L2 sub: 3140 type modelnumber: 4
+Subject: 3140 has 1 runs instead of 2
+Running L2 sub: 3143 type modelnumber: 4
+Subject: 3143 has 1 runs instead of 2
+Running L2 sub: 3152 type modelnumber: 4
+Subject: 3152 has 1 runs instead of 2
+Running L2 sub: 3164 type modelnumber: 4
+Subject: 3164 has 1 runs instead of 2
+Running L2 sub: 3166 type modelnumber: 4
+Subject: 3166 has 1 runs instead of 2
+Running L2 sub: 3167 type modelnumber: 4
+Subject: 3167 has 1 runs instead of 2
+Running L2 sub: 3173 type modelnumber: 4
+Subject: 3173 has 1 runs instead of 2
+Running L2 sub: 3175 type modelnumber: 4
+Subject: 3175 has 1 runs instead of 2
+Running L2 sub: 3176 type modelnumber: 4
+Subject: 3176 has 1 runs instead of 2
+Running L2 sub: 3189 type modelnumber: 4
+Subject: 3189 has 1 runs instead of 2
+Running L2 sub: 3190 type modelnumber: 4
+Subject: 3190 has 1 runs instead of 2
+Running L2 sub: 3199 type modelnumber: 4
+Subject: 3199 has 1 runs instead of 2
+Running L2 sub: 3200 type modelnumber: 4
+Subject: 3200 has 1 runs instead of 2
+Running L2 sub: 3206 type modelnumber: 4
+Subject: 3206 has 1 runs instead of 2
+Running L2 sub: 3210 type modelnumber: 4
+Subject: 3210 has 1 runs instead of 2
+Running L2 sub: 3212 type modelnumber: 4
+Subject: 3212 has 1 runs instead of 2
+Running L2 sub: 3218 type modelnumber: 4
+Subject: 3218 has 1 runs instead of 2
+Running L2 sub: 3220 type modelnumber: 4
+Subject: 3220 has 1 runs instead of 2
+Running L2 sub: 3223 type modelnumber: 4
+Subject: 3223 has 1 runs instead of 2
