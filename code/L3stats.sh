@@ -25,7 +25,7 @@ copenum_thresh_randomise=7 # actual contrasts start here. no need to do randomis
 copename=$2
 REPLACEME=$3 # this defines the parts of the path that differ across analyses
 INTS=$4
-MAINOUTPUT=${maindir}/derivatives/fsl/L3_model-1_task-${task}_n${N}_flame1
+MAINOUTPUT=${maindir}/derivatives/fsl/L3_model-1_task-${task}_n${N}_flame1_model-${INTS}
 mkdir -p $MAINOUTPUT
 
 echo 'Running L3 for task:' $task 'N:' $N copenum: $copenum copename: $copename type: $REPLACEME with interactions: $INTS
@@ -50,7 +50,7 @@ else # try to run feat and clean up previous effort with partial output
 	rm -rf ${OUTPUT}.gfeat
 
 	# create template and run FEAT analyses
-	ITEMPLATE=${maindir}/templates/L3_task-mid_model1_${REPLACEME}_${INTS}.fsf
+	ITEMPLATE=${maindir}/templates/L3_task-mid_${REPLACEME}_model-${INTS}.fsf
 	OTEMPLATE=${MAINOUTPUT}/L3_task-${task}_${REPLACEME}_copenum-${copenum}.fsf
 	sed -e 's@OUTPUT@'$OUTPUT'@g' \
 	-e 's@COPENUM@'$copenum'@g' \
