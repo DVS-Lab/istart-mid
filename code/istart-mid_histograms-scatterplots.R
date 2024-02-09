@@ -13,7 +13,7 @@ data <- read_excel("~/Desktop/istart-mid_scatterplot.xlsx")
 
 # Histogram of RS
 histRS <- ggplot(data,aes(x=Composite_Reward)) + 
-  geom_histogram() + scale_color_grey() + scale_fill_grey() + theme_classic() +
+  geom_histogram() + scale_color_grey() + scale_fill_grey() + theme_classic() + #
   labs(x="Composite Reward Sensitivity (demeaned)",y="count") +
   xlim(-5,5)
 histRS
