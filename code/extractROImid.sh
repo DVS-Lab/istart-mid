@@ -36,10 +36,10 @@ maindir="$(dirname "$scriptdir")"
 # base paths
 
 # Inputscd 
-L3_model_dir=L3_model-1_task-mid_n48_flame1_model-4A 
+L3_model_dir=L3_model-1_task-mid_n48_flame1_model-4E-VBeta 
 TYPE=act #act #w #nppi-ecn ppi_seed-NAcc-bin
 N=48
-cov=4E #_noINT
+cov=4E-VBeta #_noINT
 
 # Outputs
 
@@ -56,10 +56,10 @@ outputdir=${maindir}/derivatives/imaging_plots
 mkdir -p $outputdir
 
 # activation: ROI name and other path information
-for ROI in 'model-4E-VBeta_cnum-12_zstat-16_MPFC.nii.gz'; do 
+for ROI in 'model-4E-VBeta_cnum-11_zstat-16_cluster-2_p'; do 
 #'seed-NAcc-thr' 'seed-vmPFC-5mm-thr' 'seed-ACC-50-thr' 'seed-SPL-thr'  'seed-mPFC-thr' 'seed-dlPFC-thr' 'seed-pTPJ-bin' 'seed-insula-thr'  'seed-insula-thr' 'seed-PCC_abb_extracted' 'seed-PCC_int_extracted' 'IFG_extracted' 'Insula_extracted' 'lputamen-bin' mask_act-no-int_cope-15_ugrpmod_zstat-14' 'mask_act-no-int_cope-9_ugppmod_zstat-4' 'mask_ppi-no-int_cope-14_ugpchoicepmod_zstat5' 'mask_act-no-int_cope-7_dgpcuepmod_zstat-10' 'mask_ppi-no-int_cope-11_dgppmod_zstat-10'  'mask_ppi-no-int_cope-7_dgpendowpmod_zstat-5'; do  #'seed-NAcc-thr' 'seed-vmPFC-5mm-thr' 'seed-ACC-50-thr' 'seed-SPL-thr' 'seed-insula-thr'  'seed-mPFC-thr' 'seed-dlPFC-thr' 'seed-pTPJ-thr' #'seed-dlPFC-UGR-bin'; do #
 	MASK=${maindir}/masks/${ROI}.nii.gz #masks_jbw3/
-	for COPENUM in 1 2 3 4 5 6 7 8 9 10 11 12 13 14; do # act 
+	for COPENUM in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16; do # act 
 		cnum_padded=`zeropad ${COPENUM} 2`
 		DATA=`ls -1 ${INPUT}_cnum-${cnum_padded}*.gfeat/cope1.feat/filtered_func_data.nii.gz` # use normally
                 # DATA=/data/projects/istart-ugdg/derivatives/fsl/covariates/zstats_${TYPE}_${cov}/zstats_${TYPE}_cope_${COPENUM}.nii.gz # z scored for parametric analyses.

@@ -27,11 +27,11 @@ if [ "${#runfiles[@]}" -eq 2 ]; then
 		INPUT1=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-1.feat
 		INPUT2=${MAINOUTPUT}/L1_task-${task}_model-1_type-${type}_run-2.feat
 	else
-		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-1_type-ppi.fsf
+		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${modelnum}_type-${type}.fsf
 		let NCOPES=${NCOPES}+1 # add 1 since we tend to only have one extra contrast for PPI
 #L1_task-mid_model-4_type-ppi_seed-NAcc_run-1_sm-.feat		
-		INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-ppi_${type}_run-1_sm-.feat
-		INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-ppi_${type}_run-2_sm-.feat
+		INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-1_sm-.feat
+		INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${modelnum}_type-${type}_run-2_sm-.feat
 	fi
 
 	# --- end EDIT HERE end: exceptions and conditionals for the task; need to exclude bad/missing runs

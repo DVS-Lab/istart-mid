@@ -19,7 +19,7 @@ roidir = '/ZPOOL/data/projects/istart-mid/derivatives/imaging_plots/'; % Results
 resultsdir = '/ZPOOL/data/projects/istart-mid/derivatives/imaging_plots/results/'; % Output where results will be saved.
 cov_dir ='/ZPOOL/data/projects/istart-mid/code/covariates/'; % Input for covariates
 
-COVARIATE = readtable([cov_dir 'model_4a.xlsx']); % N = 48 (REWARD and SUBSTANCE)
+COVARIATE = readtable([cov_dir 'model_4A.xlsx']); % N = 48 (REWARD and SUBSTANCE)
 
 % Inputs into scatterplots.
 

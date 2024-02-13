@@ -12,7 +12,7 @@
 # ensure paths are correct irrespective from where user runs the script
 scriptdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 maindir="$(dirname "$scriptdir")"
-istartdatadir=/data/projects/istart-data #need to fix this upon release (no hard coding paths)
+istartdatadir=/ZPOOL/data/projects/istart-data #need to fix this upon release (no hard coding paths)
 
 # study-specific inputs
 TASK=mid
@@ -23,6 +23,10 @@ ppi=$3 # 0 for activation, otherwise seed region or network
 model=$4
 
 echo Running L1 sub-${sub} run-${run} ppi: ${ppi} model: ${model}
+
+if [ "$ppi" == "dmn" ]; then
+	echo Running nPPI sub-${sub}	
+fi
 
 # set inputs and general outputs (should not need to chage across studies in Smith Lab)
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
@@ -62,9 +66,16 @@ else
 	SHAPE_FRIENDN=10
 fi
 
-# if network (ecn or dmn), do nppi; otherwise, do activation or seed-based ppi
-if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
+if [ "$ppi" == "dmn" ]; then
+	echo Running nPPI sub-${sub}
+fi
 
+# if network (ecn or dmn), do nppi; otherwise, do activation or seed-based ppi
+#if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
+if [ "$ppi" == "dmn" ]; then
+
+	echo Running nPPI sub-${sub} check	
+	
 	# check for output and skip existing
 	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-nppi-${ppi}_run-${run}_sm-${sm}
 	if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
