@@ -1,0 +1,553 @@
+Subject,Cope,Activation,CopeName
+sub-1001,1,-19.701822,Large Gain
+sub-1001,2,-33.419052,Small Gain
+sub-1001,3,-15.890732,Large Loss
+sub-1001,4,-44.43043,Small Loss
+sub-1001,7,-14.523945,Neutral
+sub-1001,8,6.2050686,Gain>Loss
+sub-1001,9,-16.777603,Gain>Neut
+sub-1001,10,-22.002108,Loss>Neut
+sub-1001,12,-31.690548,Hit-Miss
+sub-1001,13,17.066702,LG-SG
+sub-1001,14,22.209206,LL-SL
+sub-1001,11,36.927776,Salience
+sub-1003,1,49.68795,Large Gain
+sub-1003,2,20.282784,Small Gain
+sub-1003,3,30.908396,Large Loss
+sub-1003,4,23.019218,Small Loss
+sub-1003,7,-13.97088,Neutral
+sub-1003,8,16.043123,Gain>Loss
+sub-1003,9,97.91249,Gain>Neut
+sub-1003,10,81.86938,Loss>Neut
+sub-1003,12,-58.3116,Hit-Miss
+sub-1003,13,29.405172,LG-SG
+sub-1003,14,7.889179,LL-SL
+sub-1003,11,145.83244,Salience
+sub-1004,1,-0.91495544,Large Gain
+sub-1004,2,25.49918,Small Gain
+sub-1004,3,-2.1810994,Large Loss
+sub-1004,4,-15.399121,Small Loss
+sub-1004,7,9.413272,Neutral
+sub-1004,8,44.43779,Gain>Loss
+sub-1004,9,11.018167,Gain>Neut
+sub-1004,10,-31.683567,Loss>Neut
+sub-1004,12,104.370735,Hit-Miss
+sub-1004,13,-24.435888,LG-SG
+sub-1004,14,7.748005,LL-SL
+sub-1004,11,-28.200232,Salience
+sub-1006,1,20.701809,Large Gain
+sub-1006,2,15.728301,Small Gain
+sub-1006,3,0.7566921,Large Loss
+sub-1006,4,4.1779904,Small Loss
+sub-1006,7,-4.1202765,Neutral
+sub-1006,8,31.495428,Gain>Loss
+sub-1006,9,44.670662,Gain>Neut
+sub-1006,10,13.175237,Loss>Neut
+sub-1006,12,-26.469898,Hit-Miss
+sub-1006,13,4.9735084,LG-SG
+sub-1006,14,-3.421299,LL-SL
+sub-1006,11,31.251263,Salience
+sub-1009,1,56.325874,Large Gain
+sub-1009,2,38.20673,Small Gain
+sub-1009,3,17.135164,Large Loss
+sub-1009,4,42.90094,Small Loss
+sub-1009,7,-12.779433,Neutral
+sub-1009,8,33.368916,Gain>Loss
+sub-1009,9,122.78002,Gain>Neut
+sub-1009,10,88.8902,Loss>Neut
+sub-1009,12,151.67834,Hit-Miss
+sub-1009,13,19.526897,LG-SG
+sub-1009,14,-28.526485,LL-SL
+sub-1009,11,90.083115,Salience
+sub-1010,1,30.909878,Large Gain
+sub-1010,2,-13.897684,Small Gain
+sub-1010,3,-11.522748,Large Loss
+sub-1010,4,-5.2006674,Small Loss
+sub-1010,7,-39.423206,Neutral
+sub-1010,8,41.309383,Gain>Loss
+sub-1010,9,100.49363,Gain>Neut
+sub-1010,10,55.62364,Loss>Neut
+sub-1010,12,36.27813,Hit-Miss
+sub-1010,13,45.669384,LG-SG
+sub-1010,14,-5.218246,LL-SL
+sub-1010,11,138.57253,Salience
+sub-1011,1,43.36961,Large Gain
+sub-1011,2,91.14579,Small Gain
+sub-1011,3,53.731384,Large Loss
+sub-1011,4,40.961353,Small Loss
+sub-1011,7,59.540627,Neutral
+sub-1011,8,39.266327,Gain>Loss
+sub-1011,9,15.182972,Gain>Neut
+sub-1011,10,-23.322098,Loss>Neut
+sub-1011,12,102.83106,Hit-Miss
+sub-1011,13,-47.074966,LG-SG
+sub-1011,14,11.310698,LL-SL
+sub-1011,11,-53.919235,Salience
+sub-1012,1,11.482684,Large Gain
+sub-1012,2,12.819222,Small Gain
+sub-1012,3,-3.1238606,Large Loss
+sub-1012,4,12.462533,Small Loss
+sub-1012,7,-43.58895,Neutral
+sub-1012,8,20.116291,Gain>Loss
+sub-1012,9,112.22072,Gain>Neut
+sub-1012,10,91.540886,Loss>Neut
+sub-1012,12,125.825096,Hit-Miss
+sub-1012,13,-0.83919144,LG-SG
+sub-1012,14,-13.092519,LL-SL
+sub-1012,11,88.70089,Salience
+sub-1013,1,-3.314441,Large Gain
+sub-1013,2,2.3605113,Small Gain
+sub-1013,3,-6.755607,Large Loss
+sub-1013,4,-14.907555,Small Loss
+sub-1013,7,-41.535892,Neutral
+sub-1013,8,16.641548,Gain>Loss
+sub-1013,9,85.45484,Gain>Neut
+sub-1013,10,67.436775,Loss>Neut
+sub-1013,12,53.67285,Hit-Miss
+sub-1013,13,-7.988339,LG-SG
+sub-1013,14,12.7378435,LL-SL
+sub-1013,11,77.688774,Salience
+sub-1015,1,36.171722,Large Gain
+sub-1015,2,27.986582,Small Gain
+sub-1015,3,2.5407135,Large Loss
+sub-1015,4,11.54527,Small Loss
+sub-1015,7,-15.97285,Neutral
+sub-1015,8,49.75882,Gain>Loss
+sub-1015,9,93.852615,Gain>Neut
+sub-1015,10,44.99349,Loss>Neut
+sub-1015,12,38.422585,Hit-Miss
+sub-1015,13,7.47473,LG-SG
+sub-1015,14,-7.7675915,LL-SL
+sub-1015,11,70.155846,Salience
+sub-1016,1,34.89795,Large Gain
+sub-1016,2,51.17197,Small Gain
+sub-1016,3,33.674786,Large Loss
+sub-1016,4,43.82744,Small Loss
+sub-1016,7,-11.552924,Neutral
+sub-1016,8,6.594661,Gain>Loss
+sub-1016,9,100.79652,Gain>Neut
+sub-1016,10,98.02712,Loss>Neut
+sub-1016,12,46.709408,Hit-Miss
+sub-1016,13,-16.329107,LG-SG
+sub-1016,14,-11.235129,LL-SL
+sub-1016,11,54.450817,Salience
+sub-1019,1,31.911282,Large Gain
+sub-1019,2,-12.575098,Small Gain
+sub-1019,3,24.385418,Large Loss
+sub-1019,4,36.92072,Small Loss
+sub-1019,7,5.203924,Neutral
+sub-1019,8,-28.96525,Gain>Loss
+sub-1019,9,8.579128,Gain>Neut
+sub-1019,10,35.112373,Loss>Neut
+sub-1019,12,64.6105,Hit-Miss
+sub-1019,13,44.682255,LG-SG
+sub-1019,14,1.6594504,LL-SL
+sub-1019,11,97.06418,Salience
+sub-1021,1,-7.601514,Large Gain
+sub-1021,2,-7.8137827,Small Gain
+sub-1021,3,-29.613394,Large Loss
+sub-1021,4,-8.424808,Small Loss
+sub-1021,7,-26.548918,Neutral
+sub-1021,8,22.34053,Gain>Loss
+sub-1021,9,36.82729,Gain>Neut
+sub-1021,10,13.26108,Loss>Neut
+sub-1021,12,-14.698711,Hit-Miss
+sub-1021,13,0.12558131,LG-SG
+sub-1021,14,-22.892557,LL-SL
+sub-1021,11,-7.5814185,Salience
+sub-1242,1,31.79765,Large Gain
+sub-1242,2,-3.1281166,Small Gain
+sub-1242,3,18.114742,Large Loss
+sub-1242,4,25.587852,Small Loss
+sub-1242,7,-24.547855,Neutral
+sub-1242,8,-15.033061,Gain>Loss
+sub-1242,9,77.76524,Gain>Neut
+sub-1242,10,92.79831,Loss>Neut
+sub-1242,12,4.6745043,Hit-Miss
+sub-1242,13,34.92577,LG-SG
+sub-1242,14,-7.4731073,LL-SL
+sub-1242,11,126.46077,Salience
+sub-1243,1,7.7046137,Large Gain
+sub-1243,2,13.24664,Small Gain
+sub-1243,3,9.578332,Large Loss
+sub-1243,4,-6.7708154,Small Loss
+sub-1243,7,-37.273735,Neutral
+sub-1243,8,16.3072,Gain>Loss
+sub-1243,9,98.98376,Gain>Neut
+sub-1243,10,83.57268,Loss>Neut
+sub-1243,12,69.45689,Hit-Miss
+sub-1243,13,-4.7565393,LG-SG
+sub-1243,14,16.075422,LL-SL
+sub-1243,11,104.17282,Salience
+sub-1244,1,-17.426239,Large Gain
+sub-1244,2,1.298989,Small Gain
+sub-1244,3,-18.094217,Large Loss
+sub-1244,4,-35.60573,Small Loss
+sub-1244,7,-65.132904,Neutral
+sub-1244,8,32.578907,Gain>Loss
+sub-1244,9,112.4378,Gain>Neut
+sub-1244,10,83.057175,Loss>Neut
+sub-1244,12,7.439225,Hit-Miss
+sub-1244,13,-20.37432,LG-SG
+sub-1244,14,15.929192,LL-SL
+sub-1244,11,88.937096,Salience
+sub-1245,1,21.71039,Large Gain
+sub-1245,2,5.07301,Small Gain
+sub-1245,3,27.180552,Large Loss
+sub-1245,4,12.255913,Small Loss
+sub-1245,7,-18.970499,Neutral
+sub-1245,8,-15.651959,Gain>Loss
+sub-1245,9,67.18551,Gain>Neut
+sub-1245,10,84.48676,Loss>Neut
+sub-1245,12,-27.980478,Hit-Miss
+sub-1245,13,19.289112,LG-SG
+sub-1245,14,13.993358,LL-SL
+sub-1245,11,117.81986,Salience
+sub-1247,1,11.248469,Large Gain
+sub-1247,2,11.293225,Small Gain
+sub-1247,3,-18.910517,Large Loss
+sub-1247,4,-10.123739,Small Loss
+sub-1247,7,-15.838116,Neutral
+sub-1247,8,51.339405,Gain>Loss
+sub-1247,9,57.21847,Gain>Neut
+sub-1247,10,3.3775923,Loss>Neut
+sub-1247,12,41.714382,Hit-Miss
+sub-1247,13,2.278573,LG-SG
+sub-1247,14,-11.482035,LL-SL
+sub-1247,11,16.07616,Salience
+sub-1248,1,28.202753,Large Gain
+sub-1248,2,9.9205265,Small Gain
+sub-1248,3,19.389963,Large Loss
+sub-1248,4,27.50359,Small Loss
+sub-1248,7,-17.401329,Neutral
+sub-1248,8,-13.763004,Gain>Loss
+sub-1248,9,74.09555,Gain>Neut
+sub-1248,10,86.90564,Loss>Neut
+sub-1248,12,19.025301,Hit-Miss
+sub-1248,13,19.517555,LG-SG
+sub-1248,14,-6.4560785,LL-SL
+sub-1248,11,87.95538,Salience
+sub-1249,1,30.274378,Large Gain
+sub-1249,2,-11.132036,Small Gain
+sub-1249,3,31.140154,Large Loss
+sub-1249,4,-22.967533,Small Loss
+sub-1249,7,29.21231,Neutral
+sub-1249,8,12.286666,Gain>Loss
+sub-1249,9,-38.62134,Gain>Neut
+sub-1249,10,-53.786694,Loss>Neut
+sub-1249,12,52.775444,Hit-Miss
+sub-1249,13,41.73631,LG-SG
+sub-1249,14,60.875587,LL-SL
+sub-1249,11,107.91578,Salience
+sub-1276,1,15.58298,Large Gain
+sub-1276,2,-9.728568,Small Gain
+sub-1276,3,20.751507,Large Loss
+sub-1276,4,22.722673,Small Loss
+sub-1276,7,-5.265593,Neutral
+sub-1276,8,-37.619766,Gain>Loss
+sub-1276,9,16.3856,Gain>Neut
+sub-1276,10,54.005375,Loss>Neut
+sub-1276,12,16.098772,Hit-Miss
+sub-1276,13,25.311546,LG-SG
+sub-1276,14,-1.9711677,LL-SL
+sub-1276,11,70.20606,Salience
+sub-1282,1,24.424849,Large Gain
+sub-1282,2,65.39307,Small Gain
+sub-1282,3,36.202538,Large Loss
+sub-1282,4,31.158293,Small Loss
+sub-1282,7,15.382922,Neutral
+sub-1282,8,22.45707,Gain>Loss
+sub-1282,9,59.05206,Gain>Neut
+sub-1282,10,36.594994,Loss>Neut
+sub-1282,12,30.818558,Hit-Miss
+sub-1282,13,-40.968212,LG-SG
+sub-1282,14,5.0442486,LL-SL
+sub-1282,11,-6.06242,Salience
+sub-1286,1,2.302109,Large Gain
+sub-1286,2,-49.52704,Small Gain
+sub-1286,3,17.549576,Large Loss
+sub-1286,4,8.272004,Small Loss
+sub-1286,7,-104.06444,Neutral
+sub-1286,8,-73.0465,Gain>Loss
+sub-1286,9,160.90395,Gain>Neut
+sub-1286,10,233.95045,Loss>Neut
+sub-1286,12,167.75496,Hit-Miss
+sub-1286,13,51.829144,LG-SG
+sub-1286,14,9.277572,LL-SL
+sub-1286,11,289.08725,Salience
+sub-1294,1,-29.080261,Large Gain
+sub-1294,2,-42.529793,Small Gain
+sub-1294,3,-25.59389,Large Loss
+sub-1294,4,-29.715487,Small Loss
+sub-1294,7,-26.519709,Neutral
+sub-1294,8,-16.30068,Gain>Loss
+sub-1294,9,-18.570639,Gain>Neut
+sub-1294,10,-2.2699559,Loss>Neut
+sub-1294,12,58.488216,Hit-Miss
+sub-1294,13,13.449533,LG-SG
+sub-1294,14,4.121597,LL-SL
+sub-1294,11,15.936398,Salience
+sub-1300,1,20.01892,Large Gain
+sub-1300,2,3.3366673,Small Gain
+sub-1300,3,45.205624,Large Loss
+sub-1300,4,42.057713,Small Loss
+sub-1300,7,-26.743818,Neutral
+sub-1300,8,-63.99864,Gain>Loss
+sub-1300,9,74.88245,Gain>Neut
+sub-1300,10,142.78581,Loss>Neut
+sub-1300,12,52.239944,Hit-Miss
+sub-1300,13,16.821186,LG-SG
+sub-1300,14,-0.9345849,LL-SL
+sub-1300,11,139.37062,Salience
+sub-1301,1,-28.2764,Large Gain
+sub-1301,2,-41.57707,Small Gain
+sub-1301,3,-20.55712,Large Loss
+sub-1301,4,-8.427848,Small Loss
+sub-1301,7,-28.46213,Neutral
+sub-1301,8,-40.674465,Gain>Loss
+sub-1301,9,-12.925386,Gain>Neut
+sub-1301,10,28.083496,Loss>Neut
+sub-1301,12,39.66018,Hit-Miss
+sub-1301,13,13.990255,LG-SG
+sub-1301,14,-14.6664505,LL-SL
+sub-1301,11,6.8479714,Salience
+sub-1302,1,4.589592,Large Gain
+sub-1302,2,29.198614,Small Gain
+sub-1302,3,15.180121,Large Loss
+sub-1302,4,21.050495,Small Loss
+sub-1302,7,44.472507,Neutral
+sub-1302,8,-2.442405,Gain>Loss
+sub-1302,9,-55.156807,Gain>Neut
+sub-1302,10,-52.7144,Loss>Neut
+sub-1302,12,18.478706,Hit-Miss
+sub-1302,13,-24.609026,LG-SG
+sub-1302,14,-5.870373,LL-SL
+sub-1302,11,-99.654686,Salience
+sub-1303,1,26.019016,Large Gain
+sub-1303,2,-15.889567,Small Gain
+sub-1303,3,2.623106,Large Loss
+sub-1303,4,-22.929897,Small Loss
+sub-1303,7,-43.095234,Neutral
+sub-1303,8,30.43624,Gain>Loss
+sub-1303,9,96.31992,Gain>Neut
+sub-1303,10,65.88369,Loss>Neut
+sub-1303,12,-22.625475,Hit-Miss
+sub-1303,13,41.90858,LG-SG
+sub-1303,14,25.553001,LL-SL
+sub-1303,11,182.29417,Salience
+sub-3116,1,22.60895,Large Gain
+sub-3116,2,23.691578,Small Gain
+sub-3116,3,16.115665,Large Loss
+sub-3116,4,15.495286,Small Loss
+sub-3116,7,7.4341516,Neutral
+sub-3116,8,14.689579,Gain>Loss
+sub-3116,9,31.432224,Gain>Neut
+sub-3116,10,16.742645,Loss>Neut
+sub-3116,12,49.95399,Hit-Miss
+sub-3116,13,-1.0826272,LG-SG
+sub-3116,14,0.62037826,LL-SL
+sub-3116,11,23.394062,Salience
+sub-3125,1,6.3845215,Large Gain
+sub-3125,2,11.125552,Small Gain
+sub-3125,3,27.767351,Large Loss
+sub-3125,4,2.5766675,Small Loss
+sub-3125,7,-64.77973,Neutral
+sub-3125,8,-12.833946,Gain>Loss
+sub-3125,9,147.06955,Gain>Neut
+sub-3125,10,159.90347,Loss>Neut
+sub-3125,12,-0.63236934,Hit-Miss
+sub-3125,13,-4.7410297,LG-SG
+sub-3125,14,25.190681,LL-SL
+sub-3125,11,184.16101,Salience
+sub-3140,1,1.6744791,Large Gain
+sub-3140,2,12.087789,Small Gain
+sub-3140,3,1.2440413,Large Loss
+sub-3140,4,7.2483296,Small Loss
+sub-3140,7,-27.800722,Neutral
+sub-3140,8,5.2698965,Gain>Loss
+sub-3140,9,69.363716,Gain>Neut
+sub-3140,10,64.09382,Loss>Neut
+sub-3140,12,-38.272514,Hit-Miss
+sub-3140,13,-10.413312,LG-SG
+sub-3140,14,-6.004288,LL-SL
+sub-3140,11,42.102367,Salience
+sub-3143,1,15.939319,Large Gain
+sub-3143,2,8.651193,Small Gain
+sub-3143,3,4.582552,Large Loss
+sub-3143,4,16.473537,Small Loss
+sub-3143,7,-28.534777,Neutral
+sub-3143,8,3.534421,Gain>Loss
+sub-3143,9,81.660065,Gain>Neut
+sub-3143,10,78.12564,Loss>Neut
+sub-3143,12,129.40727,Hit-Miss
+sub-3143,13,7.2881265,LG-SG
+sub-3143,14,-11.890986,LL-SL
+sub-3143,11,72.988556,Salience
+sub-3166,1,9.181701,Large Gain
+sub-3166,2,36.723404,Small Gain
+sub-3166,3,20.341063,Large Loss
+sub-3166,4,-3.5859575,Small Loss
+sub-3166,7,-5.6580253,Neutral
+sub-3166,8,29.15,Gain>Loss
+sub-3166,9,57.221153,Gain>Neut
+sub-3166,10,28.071156,Loss>Neut
+sub-3166,12,80.499435,Hit-Miss
+sub-3166,13,-27.541702,LG-SG
+sub-3166,14,23.92702,LL-SL
+sub-3166,11,37.22413,Salience
+sub-3167,1,-23.381037,Large Gain
+sub-3167,2,-22.956205,Small Gain
+sub-3167,3,-12.728226,Large Loss
+sub-3167,4,-18.440044,Small Loss
+sub-3167,7,-39.70447,Neutral
+sub-3167,8,-15.168972,Gain>Loss
+sub-3167,9,33.071697,Gain>Neut
+sub-3167,10,48.240673,Loss>Neut
+sub-3167,12,249.17642,Hit-Miss
+sub-3167,13,-0.42482698,LG-SG
+sub-3167,14,5.7118177,LL-SL
+sub-3167,11,48.58667,Salience
+sub-3170,1,17.665625,Large Gain
+sub-3170,2,-6.724113,Small Gain
+sub-3170,3,-4.128649,Large Loss
+sub-3170,4,1.5645323,Small Loss
+sub-3170,7,-25.20459,Neutral
+sub-3170,8,13.505629,Gain>Loss
+sub-3170,9,61.350685,Gain>Neut
+sub-3170,10,47.845062,Loss>Neut
+sub-3170,12,86.542564,Hit-Miss
+sub-3170,13,24.389738,LG-SG
+sub-3170,14,-5.6931815,LL-SL
+sub-3170,11,82.642715,Salience
+sub-3173,1,-0.916417,Large Gain
+sub-3173,2,-2.0278006,Small Gain
+sub-3173,3,-14.803601,Large Loss
+sub-3173,4,-41.594166,Small Loss
+sub-3173,7,-54.22418,Neutral
+sub-3173,8,53.453545,Gain>Loss
+sub-3173,9,105.50412,Gain>Neut
+sub-3173,10,52.05059,Loss>Neut
+sub-3173,12,69.383354,Hit-Miss
+sub-3173,13,1.1113836,LG-SG
+sub-3173,14,26.79056,LL-SL
+sub-3173,11,120.63028,Salience
+sub-3175,1,16.133799,Large Gain
+sub-3175,2,42.248585,Small Gain
+sub-3175,3,-9.836457,Large Loss
+sub-3175,4,30.625586,Small Loss
+sub-3175,7,-6.965517,Neutral
+sub-3175,8,37.593254,Gain>Loss
+sub-3175,9,72.31341,Gain>Neut
+sub-3175,10,34.720158,Loss>Neut
+sub-3175,12,73.759094,Hit-Miss
+sub-3175,13,-26.114788,LG-SG
+sub-3175,14,-40.462044,LL-SL
+sub-3175,11,-46.34846,Salience
+sub-3176,1,27.61854,Large Gain
+sub-3176,2,-16.786095,Small Gain
+sub-3176,3,-0.74991125,Large Loss
+sub-3176,4,1.0538951,Small Loss
+sub-3176,7,-70.1281,Neutral
+sub-3176,8,10.528461,Gain>Loss
+sub-3176,9,151.08862,Gain>Neut
+sub-3176,10,140.56017,Loss>Neut
+sub-3176,12,45.583923,Hit-Miss
+sub-3176,13,44.404633,LG-SG
+sub-3176,14,-1.8038079,LL-SL
+sub-3176,11,209.72566,Salience
+sub-3189,1,-15.139775,Large Gain
+sub-3189,2,-26.892122,Small Gain
+sub-3189,3,-36.48856,Large Loss
+sub-3189,4,-43.13658,Small Loss
+sub-3189,7,-52.756073,Neutral
+sub-3189,8,37.593243,Gain>Loss
+sub-3189,9,63.480236,Gain>Neut
+sub-3189,10,25.887003,Loss>Neut
+sub-3189,12,35.006954,Hit-Miss
+sub-3189,13,11.752347,LG-SG
+sub-3189,14,6.6480227,LL-SL
+sub-3189,11,72.28417,Salience
+sub-3190,1,48.007286,Large Gain
+sub-3190,2,40.341694,Small Gain
+sub-3190,3,48.63009,Large Loss
+sub-3190,4,14.70931,Small Loss
+sub-3190,7,41.81085,Neutral
+sub-3190,8,25.009579,Gain>Loss
+sub-3190,9,4.727279,Gain>Neut
+sub-3190,10,-20.282297,Loss>Neut
+sub-3190,12,41.401905,Hit-Miss
+sub-3190,13,7.6655927,LG-SG
+sub-3190,14,33.920784,LL-SL
+sub-3190,11,54.602055,Salience
+sub-3199,1,32.717373,Large Gain
+sub-3199,2,3.8183532,Small Gain
+sub-3199,3,13.647793,Large Loss
+sub-3199,4,10.402928,Small Loss
+sub-3199,7,-22.584282,Neutral
+sub-3199,8,12.485005,Gain>Loss
+sub-3199,9,81.70429,Gain>Neut
+sub-3199,10,69.219284,Loss>Neut
+sub-3199,12,46.008057,Hit-Miss
+sub-3199,13,28.899023,LG-SG
+sub-3199,14,3.2448618,LL-SL
+sub-3199,11,123.677605,Salience
+sub-3200,1,25.349367,Large Gain
+sub-3200,2,28.84279,Small Gain
+sub-3200,3,1.5217795,Large Loss
+sub-3200,4,31.22611,Small Loss
+sub-3200,7,-14.7360525,Neutral
+sub-3200,8,21.444267,Gain>Loss
+sub-3200,9,83.66426,Gain>Neut
+sub-3200,10,62.220005,Loss>Neut
+sub-3200,12,8.015689,Hit-Miss
+sub-3200,13,-3.4934251,LG-SG
+sub-3200,14,-29.704329,LL-SL
+sub-3200,11,23.145496,Salience
+sub-3206,1,22.350471,Large Gain
+sub-3206,2,-0.096771054,Small Gain
+sub-3206,3,-5.355887,Large Loss
+sub-3206,4,9.817049,Small Loss
+sub-3206,7,7.533669,Neutral
+sub-3206,8,17.792538,Gain>Loss
+sub-3206,9,7.1863675,Gain>Neut
+sub-3206,10,-10.6061735,Loss>Neut
+sub-3206,12,104.97853,Hit-Miss
+sub-3206,13,22.447245,LG-SG
+sub-3206,14,-15.172937,LL-SL
+sub-3206,11,9.201559,Salience
+sub-3212,1,14.700742,Large Gain
+sub-3212,2,24.602226,Small Gain
+sub-3212,3,9.452378,Large Loss
+sub-3212,4,-1.3097116,Small Loss
+sub-3212,7,-14.336417,Neutral
+sub-3212,8,31.160297,Gain>Loss
+sub-3212,9,67.9758,Gain>Neut
+sub-3212,10,36.8155,Loss>Neut
+sub-3212,12,126.681816,Hit-Miss
+sub-3212,13,-9.9014845,LG-SG
+sub-3212,14,10.762092,LL-SL
+sub-3212,11,53.686565,Salience
+sub-3218,1,17.952013,Large Gain
+sub-3218,2,-6.3959074,Small Gain
+sub-3218,3,9.4795065,Large Loss
+sub-3218,4,5.4697104,Small Loss
+sub-3218,7,-28.739264,Neutral
+sub-3218,8,-3.3931127,Gain>Loss
+sub-3218,9,69.03462,Gain>Neut
+sub-3218,10,72.42774,Loss>Neut
+sub-3218,12,7.3180013,Hit-Miss
+sub-3218,13,24.34792,LG-SG
+sub-3218,14,4.0097957,LL-SL
+sub-3218,11,113.26775,Salience
+sub-3220,1,21.047907,Large Gain
+sub-3220,2,46.900337,Small Gain
+sub-3220,3,22.117373,Large Loss
+sub-3220,4,38.077057,Small Loss
+sub-3220,7,20.605724,Neutral
+sub-3220,8,7.7538137,Gain>Loss
+sub-3220,9,26.73679,Gain>Neut
+sub-3220,10,18.982977,Loss>Neut
+sub-3220,12,31.69425,Hit-Miss
+sub-3220,13,-25.852432,LG-SG
+sub-3220,14,-15.959682,LL-SL
+sub-3220,11,-39.858288,Salience
