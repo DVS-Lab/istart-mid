@@ -6,11 +6,19 @@ basedir="$(dirname "$scriptdir")"
 nruns=2
 task=mid # edit if necessary
 
+<<<<<<< HEAD
 for ppi in "dmn"; do #<img src="figures/VSConn_mask-leftVS_dACC_Contr-Conn Gain>Neut.svg" alt="" /><img src="figures/VSConn_mask-leftVS_dACC_Contr-Conn Gain>Neut.svg" alt="" /><img src="figures/VSConn_mask-leftVS_dACC_Contr-Conn Gain>Neut.svg" alt="" />; do  #in 0 NAcc; do # putting 0 first will indicate "activation"
 
 	for sub in `cat ${scriptdir}/_newsubs.txt`; do #`cat ${scriptdir}/_newsubs.txt`; do #1300; do #
 	#for sub in 1001; do	
 		for run in 1 2; do
+=======
+for ppi in 0 "dmn"; do #<img src="figures/VSConn_mask-leftVS_dACC_Contr-Conn Gain>Neut.svg" alt="" /><img src="figures/VSConn_mask-leftVS_dACC_Contr-Conn Gain>Neut.svg" alt="" /><img src="figures/VSConn_mask-leftVS_dACC_Contr-Conn Gain>Neut.svg" alt="" />; do  #in 0 NAcc; do # putting 0 first will indicate "activation"
+
+	for sub in `cat ${scriptdir}/_newsubs.txt`; do #`cat ${scriptdir}/_newsubs.txt`; do #1300; do #
+	#for sub in 10; do	
+		for run in 1; do
+>>>>>>> 50c7ed8a7e2193057b354311dfaa1f8facde1068
 
 		model=4
 
